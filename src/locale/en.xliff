@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="4166097473316651809">
+      <notes>
+        <note category="location">src/app/app.component.html:11</note>
+      </notes>
+      <segment>
+        <source>Hello there! We&apos;re thrilled that you&apos;ve decided to use Localazy for translating your app!</source>
+      </segment>
+    </unit>
+    <unit id="751254227989229787">
+      <notes>
+        <note category="location">src/app/app.component.html:13</note>
+      </notes>
+      <segment>
+        <source>I am free, wrapped just in a body</source>
+      </segment>
+    </unit>
+    <unit id="1980036934072578793">
+      <notes>
+        <note category="location">src/app/app.component.html:16</note>
+        <note category="description">merged div translation</note>
+      </notes>
+      <segment>
+        <source>Can we also translate this? Awesome!</source>
+      </segment>
+    </unit>
+    <unit id="2406444660549773919">
+      <notes>
+        <note category="location">src/app/app.component.html:17,18</note>
+        <note category="description">merged div translation</note>
+      </notes>
+      <segment>
+        <source> Can we also translate this? Awesome! </source>
+      </segment>
+    </unit>
+    <unit id="4099358074779893586">
+      <notes>
+        <note category="location">src/app/app.component.html:23</note>
+      </notes>
+      <segment>
+        <source>Updated </source>
+      </segment>
+    </unit>
+    <unit id="5616595174246403109">
+      <notes>
+        <note category="location">src/app/app.component.html:25</note>
+      </notes>
+      <segment>
+        <source>{VAR_PLURAL, plural, =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION"/> minutes ago}}</source>
+      </segment>
+    </unit>
+    <unit id="8012344910054029733">
+      <notes>
+        <note category="location">src/app/app.component.html:31</note>
+      </notes>
+      <segment>
+        <source>Male</source>
+      </segment>
+    </unit>
+    <unit id="5667840900782067941">
+      <notes>
+        <note category="location">src/app/app.component.html:32</note>
+      </notes>
+      <segment>
+        <source>Female</source>
+      </segment>
+    </unit>
+    <unit id="974888539530227838">
+      <notes>
+        <note category="location">src/app/app.component.html:33</note>
+      </notes>
+      <segment>
+        <source>In love with Localazy!</source>
+      </segment>
+    </unit>
+    <unit id="6628330738743904437">
+      <notes>
+        <note category="location">src/app/app.component.html:35</note>
+      </notes>
+      <segment>
+        <source>The author is <ph id="0" equiv="INTERPOLATION" disp="{{ user }}"/></source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

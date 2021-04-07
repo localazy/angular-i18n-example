@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ title }}</title>
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <!-- a place to put some playful string resources -->
+  <h1 i18n>Hello there! We're thrilled that you've decided to use Localazy for translating your app!</h1>
+
+  <ng-container i18n>I am free, wrapped just in a body</ng-container>
+
+  <div i18n="merged div translation" i18n-data-title="merged div translation"
+    data-title="Can we also translate this? Awesome!">
+    Can we also translate this? Awesome!
+  </div>
+
+  <div>
+    <input type="number" min="0" [(ngModel)]="minutes">
+    <br>
+    <span i18n>Updated </span>
+    <span i18="icu_plural">
+      {minutes, plural, =1 {one minute ago} other {{{ minutes }} minutes ago}}
+    </span>
+  </div>
+
+  <div>
+    <select [(ngModel)]="user">
+      <option value="male" i18n>Male</option>
+      <option value="female" i18n>Female</option>
+      <option value="you" i18n>In love with Localazy!</option>
+    </select>
+    <span i18n>The author is {{ user }}</span>
+  </div>
+</body>
+
+</html>

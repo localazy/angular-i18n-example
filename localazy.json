@@ -1,0 +1,14 @@
+{
+  "writeKey": "a8695163886386018991-b8b09a6d15ef32ade10e659de4f9957bd59f366c6d6ed4a4f119ae7bd6039ae6",
+  "readKey": "a8695163886386018991-682510b5ef428435b64f21e6aaef37d0a2695a344768661e6798d7b7796bbe2b",
+  "upload": {
+    "type": "xliff",
+    "features": [
+      "parse_plurals_icu"
+    ],
+    "files": "src/locale/en.xliff"
+  },
+  "download": {
+    "files": "src/locale/${lang}.xliff"
+  }
+}
