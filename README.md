@@ -5,7 +5,7 @@ This is an example repository showing how to use Localazy with angular-i18n for 
 To learn more, check out the [blog post](https://localazy.com/blog/localize-angular-app-i18n-l10n-localazy) describing the set up in detail.
 
 ## Sandbox
-Subject to be added.
+https://codesandbox.io/s/quiet-flower-3l64n
 
 First install dependencies
 ```shell
