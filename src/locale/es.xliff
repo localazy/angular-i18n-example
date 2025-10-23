@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="es" version="2.0">
+<file id="ngi18n" original="ng.template">
+<unit id="1739831872805413205">
+<segment>
+<source xml:space="preserve"> Hello!! We&apos;re thrilled that you&apos;ve decided to use Localazy for translating your <ph disp="{{ title() }}" equiv="INTERPOLATION" id="0"/> app! </source>
+<target xml:space="preserve"> ¡Hola! Nos alegra mucho que hayas decidido usar Localazy para traducir tu...<ph disp="{{ title() }}" equiv="INTERPOLATION" id="0"/> ¡Aplicación! </target>
+</segment>
+</unit>
+<unit id="1980036934072578793">
+<segment>
+<source xml:space="preserve">Can we also translate this? Awesome!</source>
+<target xml:space="preserve">¿Podemos traducir esto también? ¡Genial!</target>
+</segment>
+</unit>
+<unit id="2406444660549773919">
+<segment>
+<source xml:space="preserve"> Can we also translate this? Awesome! </source>
+<target xml:space="preserve"> ¿Podemos traducir esto también? ¡Genial! </target>
+</segment>
+</unit>
+<unit id="5616595174246403109">
+<segment>
+<source xml:space="preserve">{VAR_PLURAL, plural, =1 {one minute ago} other {<ph equiv="INTERPOLATION" id="0"/> minutes ago}}</source>
+<target xml:space="preserve">{VAR_PLURAL, plural, =1 {hace un minuto} other {<ph equiv="INTERPOLATION" id="0"/>hace minutos}}</target>
+</segment>
+</unit>
+<unit id="5667840900782067941">
+<segment>
+<source xml:space="preserve">Female</source>
+<target xml:space="preserve">Femenino</target>
+</segment>
+</unit>
+<unit id="6628330738743904437">
+<segment>
+<source xml:space="preserve">The author is <ph disp="{{ user() }}" equiv="INTERPOLATION" id="0"/></source>
+<target xml:space="preserve">El autor es<ph disp="{{ user() }}" equiv="INTERPOLATION" id="0"/></target>
+</segment>
+</unit>
+<unit id="751254227989229787">
+<segment>
+<source xml:space="preserve">I am free, wrapped just in a body</source>
+<target xml:space="preserve">Soy libre, envuelta sólo en un cuerpo.</target>
+</segment>
+</unit>
+<unit id="8012344910054029733">
+<segment>
+<source xml:space="preserve">Male</source>
+<target xml:space="preserve">Masculino</target>
+</segment>
+</unit>
+<unit id="974888539530227838">
+<segment>
+<source xml:space="preserve">In love with Localazy!</source>
+<target xml:space="preserve">¡Enamorado de Localazy!</target>
+</segment>
+</unit>
+</file>
+</xliff>
