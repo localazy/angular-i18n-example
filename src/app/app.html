@@ -1,0 +1,58 @@
+<style>
+  h1 {
+    font-size: 2.125rem;
+  }
+
+  main {
+    width: 60%;
+    margin: 10% auto;
+    padding: 50px;
+    background: #eae6e4;
+  }
+
+  div {
+    padding: 5px 0;
+  }
+  span {
+    padding: 5px;
+  }
+</style>
+
+<main class="main">
+  <!-- CODE 1 -->
+  <h1 i18n>
+    Hello!! We're thrilled that you've decided to use Localazy for translating your
+    {{ title() }} app!
+  </h1>
+
+  <!-- CODE 2 -->
+  <ng-container i18n>I am free, wrapped just in a body</ng-container>
+
+  <!-- CODE 3 -->
+  <div
+    i18n="merged div translation"
+    i18n-data-title="merged div translation"
+    data-title="Can we also translate this? Awesome!"
+  >
+    Can we also translate this? Awesome!
+  </div>
+
+  <!-- CODE 3 -->
+  <div>
+    <input type="number" min="0" [(ngModel)]="minutes" />
+    <span i18="icu_plural">
+      Updated {minutes(), plural, =1 {one minute ago} other {{{ minutes() }} minutes ago}}
+    </span>
+  </div>
+
+  <!-- CODE 4 -->
+  <div>
+    <select [(ngModel)]="user">
+      <option value="male" i18n>Male</option>
+      <option value="female" i18n>Female</option>
+      <option value="you" i18n>In love with Localazy!</option>
+    </select>
+    <span i18n>The author is {{ user() }}</span>
+  </div>
+</main>
+<router-outlet />
